@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B20ED5F5293B24BC002B2A0B /* RucksackReorganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20ED5F4293B24BC002B2A0B /* RucksackReorganization.swift */; };
+		B20ED5F7293B2504002B2A0B /* day_03.txt in Resources */ = {isa = PBXBuildFile; fileRef = B20ED5F6293B2504002B2A0B /* day_03.txt */; };
+		B20ED5F9293B2519002B2A0B /* day_03.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20ED5F8293B2519002B2A0B /* day_03.swift */; };
 		B29AE50F29390EF4001C7F39 /* aoc2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE50E29390EF4001C7F39 /* aoc2022App.swift */; };
 		B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE51029390EF4001C7F39 /* ContentView.swift */; };
 		B29AE51329390EF5001C7F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29AE51229390EF5001C7F39 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B20ED5F4293B24BC002B2A0B /* RucksackReorganization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RucksackReorganization.swift; sourceTree = "<group>"; };
+		B20ED5F6293B2504002B2A0B /* day_03.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_03.txt; sourceTree = "<group>"; };
+		B20ED5F8293B2519002B2A0B /* day_03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_03.swift; sourceTree = "<group>"; };
 		B29AE50B29390EF4001C7F39 /* aoc2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aoc2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29AE50E29390EF4001C7F39 /* aoc2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc2022App.swift; sourceTree = "<group>"; };
 		B29AE51029390EF4001C7F39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B20ED5F3293B24AE002B2A0B /* 03 */ = {
+			isa = PBXGroup;
+			children = (
+				B20ED5F4293B24BC002B2A0B /* RucksackReorganization.swift */,
+			);
+			path = 03;
+			sourceTree = "<group>";
+		};
 		B29AE50229390EF4001C7F39 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +146,7 @@
 				B29AE51F29390EF5001C7F39 /* aoc2022Tests.swift */,
 				B29AE53E29390FA2001C7F39 /* day_01.swift */,
 				B29AE54E2939C3D2001C7F39 /* day_02.swift */,
+				B20ED5F8293B2519002B2A0B /* day_03.swift */,
 			);
 			path = aoc2022Tests;
 			sourceTree = "<group>";
@@ -148,6 +163,7 @@
 		B29AE53829390F06001C7F39 /* days */ = {
 			isa = PBXGroup;
 			children = (
+				B20ED5F3293B24AE002B2A0B /* 03 */,
 				B29AE54D2939C3B5001C7F39 /* 02 */,
 				B29AE53929390F13001C7F39 /* 01 */,
 			);
@@ -167,6 +183,7 @@
 			children = (
 				B29AE549293912C2001C7F39 /* day_01.txt */,
 				B29AE5522939C498001C7F39 /* day_02.txt */,
+				B20ED5F6293B2504002B2A0B /* day_03.txt */,
 				B29AE54B293912E5001C7F39 /* Input.swift */,
 			);
 			path = Input;
@@ -294,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B29AE54A293912C2001C7F39 /* day_01.txt in Resources */,
+				B20ED5F7293B2504002B2A0B /* day_03.txt in Resources */,
 				B29AE5532939C498001C7F39 /* day_02.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */,
+				B20ED5F5293B24BC002B2A0B /* RucksackReorganization.swift in Sources */,
 				B29AE50F29390EF4001C7F39 /* aoc2022App.swift in Sources */,
 				B29AE5512939C41E001C7F39 /* RockPaperScissors.swift in Sources */,
 				B29AE53B29390F23001C7F39 /* CalorieCounting.swift in Sources */,
@@ -326,6 +345,7 @@
 				B29AE54C293912E5001C7F39 /* Input.swift in Sources */,
 				B29AE52029390EF5001C7F39 /* aoc2022Tests.swift in Sources */,
 				B29AE54F2939C3D2001C7F39 /* day_02.swift in Sources */,
+				B20ED5F9293B2519002B2A0B /* day_03.swift in Sources */,
 				B29AE53F29390FA2001C7F39 /* day_01.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
