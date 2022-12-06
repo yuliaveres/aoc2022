@@ -16,6 +16,9 @@
 		B20ED602293DB242002B2A0B /* day_05.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20ED601293DB242002B2A0B /* day_05.swift */; };
 		B20ED605293DB27B002B2A0B /* day_05.txt in Resources */ = {isa = PBXBuildFile; fileRef = B20ED604293DB27B002B2A0B /* day_05.txt */; };
 		B20ED607293DDFF6002B2A0B /* SupplyStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20ED606293DDFF6002B2A0B /* SupplyStacks.swift */; };
+		B20ED60A293F055B002B2A0B /* TuningTrouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20ED609293F055B002B2A0B /* TuningTrouble.swift */; };
+		B20ED60C293F0587002B2A0B /* day_06.txt in Resources */ = {isa = PBXBuildFile; fileRef = B20ED60B293F0587002B2A0B /* day_06.txt */; };
+		B20ED60E293F05A4002B2A0B /* day_06.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20ED60D293F05A4002B2A0B /* day_06.swift */; };
 		B29AE50F29390EF4001C7F39 /* aoc2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE50E29390EF4001C7F39 /* aoc2022App.swift */; };
 		B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE51029390EF4001C7F39 /* ContentView.swift */; };
 		B29AE51329390EF5001C7F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29AE51229390EF5001C7F39 /* Assets.xcassets */; };
@@ -59,6 +62,9 @@
 		B20ED601293DB242002B2A0B /* day_05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_05.swift; sourceTree = "<group>"; };
 		B20ED604293DB27B002B2A0B /* day_05.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_05.txt; sourceTree = "<group>"; };
 		B20ED606293DDFF6002B2A0B /* SupplyStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplyStacks.swift; sourceTree = "<group>"; };
+		B20ED609293F055B002B2A0B /* TuningTrouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuningTrouble.swift; sourceTree = "<group>"; };
+		B20ED60B293F0587002B2A0B /* day_06.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_06.txt; sourceTree = "<group>"; };
+		B20ED60D293F05A4002B2A0B /* day_06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_06.swift; sourceTree = "<group>"; };
 		B29AE50B29390EF4001C7F39 /* aoc2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aoc2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29AE50E29390EF4001C7F39 /* aoc2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc2022App.swift; sourceTree = "<group>"; };
 		B29AE51029390EF4001C7F39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +133,14 @@
 			path = 05;
 			sourceTree = "<group>";
 		};
+		B20ED608293F0552002B2A0B /* 06 */ = {
+			isa = PBXGroup;
+			children = (
+				B20ED609293F055B002B2A0B /* TuningTrouble.swift */,
+			);
+			path = 06;
+			sourceTree = "<group>";
+		};
 		B29AE50229390EF4001C7F39 = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +191,7 @@
 				B20ED5F8293B2519002B2A0B /* day_03.swift */,
 				B20ED5FD293C62DF002B2A0B /* day_04.swift */,
 				B20ED601293DB242002B2A0B /* day_05.swift */,
+				B20ED60D293F05A4002B2A0B /* day_06.swift */,
 			);
 			path = aoc2022Tests;
 			sourceTree = "<group>";
@@ -193,6 +208,7 @@
 		B29AE53829390F06001C7F39 /* days */ = {
 			isa = PBXGroup;
 			children = (
+				B20ED608293F0552002B2A0B /* 06 */,
 				B20ED603293DB260002B2A0B /* 05 */,
 				B20ED5FA293C61D2002B2A0B /* 04 */,
 				B20ED5F3293B24AE002B2A0B /* 03 */,
@@ -218,6 +234,7 @@
 				B20ED5F6293B2504002B2A0B /* day_03.txt */,
 				B20ED5FF293C638F002B2A0B /* day_04.txt */,
 				B20ED604293DB27B002B2A0B /* day_05.txt */,
+				B20ED60B293F0587002B2A0B /* day_06.txt */,
 				B29AE54B293912E5001C7F39 /* Input.swift */,
 			);
 			path = Input;
@@ -345,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B29AE54A293912C2001C7F39 /* day_01.txt in Resources */,
+				B20ED60C293F0587002B2A0B /* day_06.txt in Resources */,
 				B20ED600293C638F002B2A0B /* day_04.txt in Resources */,
 				B20ED5F7293B2504002B2A0B /* day_03.txt in Resources */,
 				B20ED605293DB27B002B2A0B /* day_05.txt in Resources */,
@@ -366,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20ED60A293F055B002B2A0B /* TuningTrouble.swift in Sources */,
 				B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */,
 				B20ED5F5293B24BC002B2A0B /* RucksackReorganization.swift in Sources */,
 				B29AE50F29390EF4001C7F39 /* aoc2022App.swift in Sources */,
@@ -382,6 +401,7 @@
 			files = (
 				B20ED5FE293C62DF002B2A0B /* day_04.swift in Sources */,
 				B29AE54C293912E5001C7F39 /* Input.swift in Sources */,
+				B20ED60E293F05A4002B2A0B /* day_06.swift in Sources */,
 				B29AE52029390EF5001C7F39 /* aoc2022Tests.swift in Sources */,
 				B20ED602293DB242002B2A0B /* day_05.swift in Sources */,
 				B29AE54F2939C3D2001C7F39 /* day_02.swift in Sources */,
