@@ -33,6 +33,9 @@
 		B29AE54F2939C3D2001C7F39 /* day_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE54E2939C3D2001C7F39 /* day_02.swift */; };
 		B29AE5512939C41E001C7F39 /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE5502939C41E001C7F39 /* RockPaperScissors.swift */; };
 		B29AE5532939C498001C7F39 /* day_02.txt in Resources */ = {isa = PBXBuildFile; fileRef = B29AE5522939C498001C7F39 /* day_02.txt */; };
+		B2A04F892940712C001E3D22 /* day_07.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2A04F882940712C001E3D22 /* day_07.txt */; };
+		B2B95B9E29405BEB00FB0AE1 /* NoSpaceLeftOnDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B95B9D29405BEB00FB0AE1 /* NoSpaceLeftOnDevice.swift */; };
+		B2B95BA029405C0F00FB0AE1 /* day_07.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B95B9F29405C0F00FB0AE1 /* day_07.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,9 @@
 		B29AE54E2939C3D2001C7F39 /* day_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_02.swift; sourceTree = "<group>"; };
 		B29AE5502939C41E001C7F39 /* RockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissors.swift; sourceTree = "<group>"; };
 		B29AE5522939C498001C7F39 /* day_02.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_02.txt; sourceTree = "<group>"; };
+		B2A04F882940712C001E3D22 /* day_07.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_07.txt; sourceTree = "<group>"; };
+		B2B95B9D29405BEB00FB0AE1 /* NoSpaceLeftOnDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSpaceLeftOnDevice.swift; sourceTree = "<group>"; };
+		B2B95B9F29405C0F00FB0AE1 /* day_07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_07.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +198,7 @@
 				B20ED5FD293C62DF002B2A0B /* day_04.swift */,
 				B20ED601293DB242002B2A0B /* day_05.swift */,
 				B20ED60D293F05A4002B2A0B /* day_06.swift */,
+				B2B95B9F29405C0F00FB0AE1 /* day_07.swift */,
 			);
 			path = aoc2022Tests;
 			sourceTree = "<group>";
@@ -208,6 +215,7 @@
 		B29AE53829390F06001C7F39 /* days */ = {
 			isa = PBXGroup;
 			children = (
+				B2B95B9C29405BD700FB0AE1 /* 07 */,
 				B20ED608293F0552002B2A0B /* 06 */,
 				B20ED603293DB260002B2A0B /* 05 */,
 				B20ED5FA293C61D2002B2A0B /* 04 */,
@@ -236,6 +244,7 @@
 				B20ED604293DB27B002B2A0B /* day_05.txt */,
 				B20ED60B293F0587002B2A0B /* day_06.txt */,
 				B29AE54B293912E5001C7F39 /* Input.swift */,
+				B2A04F882940712C001E3D22 /* day_07.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -246,6 +255,14 @@
 				B29AE5502939C41E001C7F39 /* RockPaperScissors.swift */,
 			);
 			path = 02;
+			sourceTree = "<group>";
+		};
+		B2B95B9C29405BD700FB0AE1 /* 07 */ = {
+			isa = PBXGroup;
+			children = (
+				B2B95B9D29405BEB00FB0AE1 /* NoSpaceLeftOnDevice.swift */,
+			);
+			path = 07;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,6 +383,7 @@
 				B20ED600293C638F002B2A0B /* day_04.txt in Resources */,
 				B20ED5F7293B2504002B2A0B /* day_03.txt in Resources */,
 				B20ED605293DB27B002B2A0B /* day_05.txt in Resources */,
+				B2A04F892940712C001E3D22 /* day_07.txt in Resources */,
 				B29AE5532939C498001C7F39 /* day_02.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +408,7 @@
 				B29AE50F29390EF4001C7F39 /* aoc2022App.swift in Sources */,
 				B29AE5512939C41E001C7F39 /* RockPaperScissors.swift in Sources */,
 				B29AE53B29390F23001C7F39 /* CalorieCounting.swift in Sources */,
+				B2B95B9E29405BEB00FB0AE1 /* NoSpaceLeftOnDevice.swift in Sources */,
 				B20ED607293DDFF6002B2A0B /* SupplyStacks.swift in Sources */,
 				B20ED5FC293C61E7002B2A0B /* CampCleanup.swift in Sources */,
 			);
@@ -402,6 +421,7 @@
 				B20ED5FE293C62DF002B2A0B /* day_04.swift in Sources */,
 				B29AE54C293912E5001C7F39 /* Input.swift in Sources */,
 				B20ED60E293F05A4002B2A0B /* day_06.swift in Sources */,
+				B2B95BA029405C0F00FB0AE1 /* day_07.swift in Sources */,
 				B29AE52029390EF5001C7F39 /* aoc2022Tests.swift in Sources */,
 				B20ED602293DB242002B2A0B /* day_05.swift in Sources */,
 				B29AE54F2939C3D2001C7F39 /* day_02.swift in Sources */,
