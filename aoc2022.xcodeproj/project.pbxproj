@@ -19,6 +19,9 @@
 		B20ED60A293F055B002B2A0B /* TuningTrouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20ED609293F055B002B2A0B /* TuningTrouble.swift */; };
 		B20ED60C293F0587002B2A0B /* day_06.txt in Resources */ = {isa = PBXBuildFile; fileRef = B20ED60B293F0587002B2A0B /* day_06.txt */; };
 		B20ED60E293F05A4002B2A0B /* day_06.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20ED60D293F05A4002B2A0B /* day_06.swift */; };
+		B215B6582942FAF500BCB9C8 /* RopeBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B215B6572942FAF500BCB9C8 /* RopeBridge.swift */; };
+		B215B65A2942FB1C00BCB9C8 /* day_09.txt in Resources */ = {isa = PBXBuildFile; fileRef = B215B6592942FB1C00BCB9C8 /* day_09.txt */; };
+		B215B65C2942FB3600BCB9C8 /* day_09.swift in Sources */ = {isa = PBXBuildFile; fileRef = B215B65B2942FB3600BCB9C8 /* day_09.swift */; };
 		B29AE50F29390EF4001C7F39 /* aoc2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE50E29390EF4001C7F39 /* aoc2022App.swift */; };
 		B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE51029390EF4001C7F39 /* ContentView.swift */; };
 		B29AE51329390EF5001C7F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29AE51229390EF5001C7F39 /* Assets.xcassets */; };
@@ -71,6 +74,9 @@
 		B20ED609293F055B002B2A0B /* TuningTrouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuningTrouble.swift; sourceTree = "<group>"; };
 		B20ED60B293F0587002B2A0B /* day_06.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_06.txt; sourceTree = "<group>"; };
 		B20ED60D293F05A4002B2A0B /* day_06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_06.swift; sourceTree = "<group>"; };
+		B215B6572942FAF500BCB9C8 /* RopeBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopeBridge.swift; sourceTree = "<group>"; };
+		B215B6592942FB1C00BCB9C8 /* day_09.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_09.txt; sourceTree = "<group>"; };
+		B215B65B2942FB3600BCB9C8 /* day_09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_09.swift; sourceTree = "<group>"; };
 		B29AE50B29390EF4001C7F39 /* aoc2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aoc2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29AE50E29390EF4001C7F39 /* aoc2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc2022App.swift; sourceTree = "<group>"; };
 		B29AE51029390EF4001C7F39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +159,14 @@
 			path = 06;
 			sourceTree = "<group>";
 		};
+		B215B6562942FAE300BCB9C8 /* 09 */ = {
+			isa = PBXGroup;
+			children = (
+				B215B6572942FAF500BCB9C8 /* RopeBridge.swift */,
+			);
+			path = 09;
+			sourceTree = "<group>";
+		};
 		B29AE50229390EF4001C7F39 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +220,7 @@
 				B20ED60D293F05A4002B2A0B /* day_06.swift */,
 				B2B95B9F29405C0F00FB0AE1 /* day_07.swift */,
 				B2A04F8F2941BF60001E3D22 /* day_08.swift */,
+				B215B65B2942FB3600BCB9C8 /* day_09.swift */,
 			);
 			path = aoc2022Tests;
 			sourceTree = "<group>";
@@ -222,6 +237,7 @@
 		B29AE53829390F06001C7F39 /* days */ = {
 			isa = PBXGroup;
 			children = (
+				B215B6562942FAE300BCB9C8 /* 09 */,
 				B2A04F8A2941BEBF001E3D22 /* 08 */,
 				B2B95B9C29405BD700FB0AE1 /* 07 */,
 				B20ED608293F0552002B2A0B /* 06 */,
@@ -254,6 +270,7 @@
 				B20ED60B293F0587002B2A0B /* day_06.txt */,
 				B2A04F882940712C001E3D22 /* day_07.txt */,
 				B2A04F912941BF7B001E3D22 /* day_08.txt */,
+				B215B6592942FB1C00BCB9C8 /* day_09.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -399,6 +416,7 @@
 				B20ED60C293F0587002B2A0B /* day_06.txt in Resources */,
 				B20ED600293C638F002B2A0B /* day_04.txt in Resources */,
 				B20ED5F7293B2504002B2A0B /* day_03.txt in Resources */,
+				B215B65A2942FB1C00BCB9C8 /* day_09.txt in Resources */,
 				B20ED605293DB27B002B2A0B /* day_05.txt in Resources */,
 				B2A04F922941BF7B001E3D22 /* day_08.txt in Resources */,
 				B2A04F892940712C001E3D22 /* day_07.txt in Resources */,
@@ -420,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B215B6582942FAF500BCB9C8 /* RopeBridge.swift in Sources */,
 				B2A04F8C2941BED3001E3D22 /* TreetopTreeHouse.swift in Sources */,
 				B20ED60A293F055B002B2A0B /* TuningTrouble.swift in Sources */,
 				B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */,
@@ -441,6 +460,7 @@
 				B29AE54C293912E5001C7F39 /* Input.swift in Sources */,
 				B20ED60E293F05A4002B2A0B /* day_06.swift in Sources */,
 				B2B95BA029405C0F00FB0AE1 /* day_07.swift in Sources */,
+				B215B65C2942FB3600BCB9C8 /* day_09.swift in Sources */,
 				B29AE52029390EF5001C7F39 /* aoc2022Tests.swift in Sources */,
 				B20ED602293DB242002B2A0B /* day_05.swift in Sources */,
 				B29AE54F2939C3D2001C7F39 /* day_02.swift in Sources */,
