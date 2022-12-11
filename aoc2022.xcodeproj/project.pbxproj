@@ -25,6 +25,9 @@
 		B2338DDD2946225100DA086B /* day_10.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2338DDC2946225100DA086B /* day_10.txt */; };
 		B2338DDF2946226500DA086B /* day_10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2338DDE2946226500DA086B /* day_10.swift */; };
 		B2338DE12946247300DA086B /* CathodeRayTube.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2338DE02946247300DA086B /* CathodeRayTube.swift */; };
+		B2338DE3294631F600DA086B /* day_11.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2338DE2294631F600DA086B /* day_11.txt */; };
+		B2338DE62946321700DA086B /* MonkeyInTheMiddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2338DE52946321700DA086B /* MonkeyInTheMiddle.swift */; };
+		B2338DE92946324C00DA086B /* day_11.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2338DE82946324C00DA086B /* day_11.swift */; };
 		B29AE50F29390EF4001C7F39 /* aoc2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE50E29390EF4001C7F39 /* aoc2022App.swift */; };
 		B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE51029390EF4001C7F39 /* ContentView.swift */; };
 		B29AE51329390EF5001C7F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29AE51229390EF5001C7F39 /* Assets.xcassets */; };
@@ -83,6 +86,9 @@
 		B2338DDC2946225100DA086B /* day_10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_10.txt; sourceTree = "<group>"; };
 		B2338DDE2946226500DA086B /* day_10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_10.swift; sourceTree = "<group>"; };
 		B2338DE02946247300DA086B /* CathodeRayTube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathodeRayTube.swift; sourceTree = "<group>"; };
+		B2338DE2294631F600DA086B /* day_11.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_11.txt; sourceTree = "<group>"; };
+		B2338DE52946321700DA086B /* MonkeyInTheMiddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyInTheMiddle.swift; sourceTree = "<group>"; };
+		B2338DE82946324C00DA086B /* day_11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_11.swift; sourceTree = "<group>"; };
 		B29AE50B29390EF4001C7F39 /* aoc2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aoc2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29AE50E29390EF4001C7F39 /* aoc2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc2022App.swift; sourceTree = "<group>"; };
 		B29AE51029390EF4001C7F39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -181,6 +187,14 @@
 			path = 10;
 			sourceTree = "<group>";
 		};
+		B2338DE42946320000DA086B /* 11 */ = {
+			isa = PBXGroup;
+			children = (
+				B2338DE52946321700DA086B /* MonkeyInTheMiddle.swift */,
+			);
+			path = 11;
+			sourceTree = "<group>";
+		};
 		B29AE50229390EF4001C7F39 = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +250,7 @@
 				B2A04F8F2941BF60001E3D22 /* day_08.swift */,
 				B215B65B2942FB3600BCB9C8 /* day_09.swift */,
 				B2338DDE2946226500DA086B /* day_10.swift */,
+				B2338DE82946324C00DA086B /* day_11.swift */,
 			);
 			path = aoc2022Tests;
 			sourceTree = "<group>";
@@ -252,6 +267,7 @@
 		B29AE53829390F06001C7F39 /* days */ = {
 			isa = PBXGroup;
 			children = (
+				B2338DE42946320000DA086B /* 11 */,
 				B2338DDB2946224200DA086B /* 10 */,
 				B215B6562942FAE300BCB9C8 /* 09 */,
 				B2A04F8A2941BEBF001E3D22 /* 08 */,
@@ -288,6 +304,7 @@
 				B2A04F912941BF7B001E3D22 /* day_08.txt */,
 				B215B6592942FB1C00BCB9C8 /* day_09.txt */,
 				B2338DDC2946225100DA086B /* day_10.txt */,
+				B2338DE2294631F600DA086B /* day_11.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -430,6 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B29AE54A293912C2001C7F39 /* day_01.txt in Resources */,
+				B2338DE3294631F600DA086B /* day_11.txt in Resources */,
 				B20ED60C293F0587002B2A0B /* day_06.txt in Resources */,
 				B20ED600293C638F002B2A0B /* day_04.txt in Resources */,
 				B20ED5F7293B2504002B2A0B /* day_03.txt in Resources */,
@@ -462,6 +480,7 @@
 				B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */,
 				B20ED5F5293B24BC002B2A0B /* RucksackReorganization.swift in Sources */,
 				B29AE50F29390EF4001C7F39 /* aoc2022App.swift in Sources */,
+				B2338DE62946321700DA086B /* MonkeyInTheMiddle.swift in Sources */,
 				B29AE5512939C41E001C7F39 /* RockPaperScissors.swift in Sources */,
 				B2338DE12946247300DA086B /* CathodeRayTube.swift in Sources */,
 				B29AE53B29390F23001C7F39 /* CalorieCounting.swift in Sources */,
@@ -478,6 +497,7 @@
 				B20ED5FE293C62DF002B2A0B /* day_04.swift in Sources */,
 				B29AE54C293912E5001C7F39 /* Input.swift in Sources */,
 				B20ED60E293F05A4002B2A0B /* day_06.swift in Sources */,
+				B2338DE92946324C00DA086B /* day_11.swift in Sources */,
 				B2B95BA029405C0F00FB0AE1 /* day_07.swift in Sources */,
 				B215B65C2942FB3600BCB9C8 /* day_09.swift in Sources */,
 				B2338DDF2946226500DA086B /* day_10.swift in Sources */,
