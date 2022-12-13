@@ -31,6 +31,9 @@
 		B2338DEC2946FA2400DA086B /* HillClimbingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2338DEB2946FA2400DA086B /* HillClimbingAlgorithm.swift */; };
 		B2338DEE2946FA6400DA086B /* day_12.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2338DED2946FA6400DA086B /* day_12.swift */; };
 		B2338DF02946FAB500DA086B /* day_12.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2338DEF2946FAB500DA086B /* day_12.txt */; };
+		B27642342948460900158E56 /* DistressSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27642332948460900158E56 /* DistressSignal.swift */; };
+		B27642362948461700158E56 /* day_13.txt in Resources */ = {isa = PBXBuildFile; fileRef = B27642352948461700158E56 /* day_13.txt */; };
+		B27642382948463000158E56 /* day_13.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27642372948463000158E56 /* day_13.swift */; };
 		B29AE50F29390EF4001C7F39 /* aoc2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE50E29390EF4001C7F39 /* aoc2022App.swift */; };
 		B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE51029390EF4001C7F39 /* ContentView.swift */; };
 		B29AE51329390EF5001C7F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29AE51229390EF5001C7F39 /* Assets.xcassets */; };
@@ -95,6 +98,9 @@
 		B2338DEB2946FA2400DA086B /* HillClimbingAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HillClimbingAlgorithm.swift; sourceTree = "<group>"; };
 		B2338DED2946FA6400DA086B /* day_12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_12.swift; sourceTree = "<group>"; };
 		B2338DEF2946FAB500DA086B /* day_12.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_12.txt; sourceTree = "<group>"; };
+		B27642332948460900158E56 /* DistressSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistressSignal.swift; sourceTree = "<group>"; };
+		B27642352948461700158E56 /* day_13.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_13.txt; sourceTree = "<group>"; };
+		B27642372948463000158E56 /* day_13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_13.swift; sourceTree = "<group>"; };
 		B29AE50B29390EF4001C7F39 /* aoc2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aoc2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29AE50E29390EF4001C7F39 /* aoc2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc2022App.swift; sourceTree = "<group>"; };
 		B29AE51029390EF4001C7F39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -209,6 +215,14 @@
 			path = 12;
 			sourceTree = "<group>";
 		};
+		B2764232294845F700158E56 /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				B27642332948460900158E56 /* DistressSignal.swift */,
+			);
+			path = 13;
+			sourceTree = "<group>";
+		};
 		B29AE50229390EF4001C7F39 = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +280,7 @@
 				B2338DDE2946226500DA086B /* day_10.swift */,
 				B2338DE82946324C00DA086B /* day_11.swift */,
 				B2338DED2946FA6400DA086B /* day_12.swift */,
+				B27642372948463000158E56 /* day_13.swift */,
 			);
 			path = aoc2022Tests;
 			sourceTree = "<group>";
@@ -282,6 +297,7 @@
 		B29AE53829390F06001C7F39 /* days */ = {
 			isa = PBXGroup;
 			children = (
+				B2764232294845F700158E56 /* 13 */,
 				B2338DEA2946FA1A00DA086B /* 12 */,
 				B2338DE42946320000DA086B /* 11 */,
 				B2338DDB2946224200DA086B /* 10 */,
@@ -322,6 +338,7 @@
 				B2338DDC2946225100DA086B /* day_10.txt */,
 				B2338DE2294631F600DA086B /* day_11.txt */,
 				B2338DEF2946FAB500DA086B /* day_12.txt */,
+				B27642352948461700158E56 /* day_13.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -475,6 +492,7 @@
 				B2A04F892940712C001E3D22 /* day_07.txt in Resources */,
 				B2338DDD2946225100DA086B /* day_10.txt in Resources */,
 				B29AE5532939C498001C7F39 /* day_02.txt in Resources */,
+				B27642362948461700158E56 /* day_13.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +513,7 @@
 				B215B6582942FAF500BCB9C8 /* RopeBridge.swift in Sources */,
 				B2A04F8C2941BED3001E3D22 /* TreetopTreeHouse.swift in Sources */,
 				B20ED60A293F055B002B2A0B /* TuningTrouble.swift in Sources */,
+				B27642342948460900158E56 /* DistressSignal.swift in Sources */,
 				B2338DEC2946FA2400DA086B /* HillClimbingAlgorithm.swift in Sources */,
 				B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */,
 				B20ED5F5293B24BC002B2A0B /* RucksackReorganization.swift in Sources */,
@@ -515,6 +534,7 @@
 			files = (
 				B20ED5FE293C62DF002B2A0B /* day_04.swift in Sources */,
 				B29AE54C293912E5001C7F39 /* Input.swift in Sources */,
+				B27642382948463000158E56 /* day_13.swift in Sources */,
 				B20ED60E293F05A4002B2A0B /* day_06.swift in Sources */,
 				B2338DE92946324C00DA086B /* day_11.swift in Sources */,
 				B2B95BA029405C0F00FB0AE1 /* day_07.swift in Sources */,
