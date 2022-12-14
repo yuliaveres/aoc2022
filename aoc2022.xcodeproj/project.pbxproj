@@ -34,6 +34,9 @@
 		B27642342948460900158E56 /* DistressSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27642332948460900158E56 /* DistressSignal.swift */; };
 		B27642362948461700158E56 /* day_13.txt in Resources */ = {isa = PBXBuildFile; fileRef = B27642352948461700158E56 /* day_13.txt */; };
 		B27642382948463000158E56 /* day_13.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27642372948463000158E56 /* day_13.swift */; };
+		B276424229499C3B00158E56 /* RegolithReservoir.swift in Sources */ = {isa = PBXBuildFile; fileRef = B276424129499C3B00158E56 /* RegolithReservoir.swift */; };
+		B276424429499C6B00158E56 /* day_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = B276424329499C6B00158E56 /* day_14.swift */; };
+		B276424629499CAF00158E56 /* day_14.txt in Resources */ = {isa = PBXBuildFile; fileRef = B276424529499CAF00158E56 /* day_14.txt */; };
 		B29AE50F29390EF4001C7F39 /* aoc2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE50E29390EF4001C7F39 /* aoc2022App.swift */; };
 		B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AE51029390EF4001C7F39 /* ContentView.swift */; };
 		B29AE51329390EF5001C7F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29AE51229390EF5001C7F39 /* Assets.xcassets */; };
@@ -101,6 +104,9 @@
 		B27642332948460900158E56 /* DistressSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistressSignal.swift; sourceTree = "<group>"; };
 		B27642352948461700158E56 /* day_13.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_13.txt; sourceTree = "<group>"; };
 		B27642372948463000158E56 /* day_13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_13.swift; sourceTree = "<group>"; };
+		B276424129499C3B00158E56 /* RegolithReservoir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegolithReservoir.swift; sourceTree = "<group>"; };
+		B276424329499C6B00158E56 /* day_14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_14.swift; sourceTree = "<group>"; };
+		B276424529499CAF00158E56 /* day_14.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_14.txt; sourceTree = "<group>"; };
 		B29AE50B29390EF4001C7F39 /* aoc2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aoc2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29AE50E29390EF4001C7F39 /* aoc2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc2022App.swift; sourceTree = "<group>"; };
 		B29AE51029390EF4001C7F39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -223,6 +229,14 @@
 			path = 13;
 			sourceTree = "<group>";
 		};
+		B276424029499C0600158E56 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				B276424129499C3B00158E56 /* RegolithReservoir.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
 		B29AE50229390EF4001C7F39 = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +295,7 @@
 				B2338DE82946324C00DA086B /* day_11.swift */,
 				B2338DED2946FA6400DA086B /* day_12.swift */,
 				B27642372948463000158E56 /* day_13.swift */,
+				B276424329499C6B00158E56 /* day_14.swift */,
 			);
 			path = aoc2022Tests;
 			sourceTree = "<group>";
@@ -297,6 +312,7 @@
 		B29AE53829390F06001C7F39 /* days */ = {
 			isa = PBXGroup;
 			children = (
+				B276424029499C0600158E56 /* 14 */,
 				B2764232294845F700158E56 /* 13 */,
 				B2338DEA2946FA1A00DA086B /* 12 */,
 				B2338DE42946320000DA086B /* 11 */,
@@ -339,6 +355,7 @@
 				B2338DE2294631F600DA086B /* day_11.txt */,
 				B2338DEF2946FAB500DA086B /* day_12.txt */,
 				B27642352948461700158E56 /* day_13.txt */,
+				B276424529499CAF00158E56 /* day_14.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -490,6 +507,7 @@
 				B20ED605293DB27B002B2A0B /* day_05.txt in Resources */,
 				B2A04F922941BF7B001E3D22 /* day_08.txt in Resources */,
 				B2A04F892940712C001E3D22 /* day_07.txt in Resources */,
+				B276424629499CAF00158E56 /* day_14.txt in Resources */,
 				B2338DDD2946225100DA086B /* day_10.txt in Resources */,
 				B29AE5532939C498001C7F39 /* day_02.txt in Resources */,
 				B27642362948461700158E56 /* day_13.txt in Resources */,
@@ -511,6 +529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B215B6582942FAF500BCB9C8 /* RopeBridge.swift in Sources */,
+				B276424229499C3B00158E56 /* RegolithReservoir.swift in Sources */,
 				B2A04F8C2941BED3001E3D22 /* TreetopTreeHouse.swift in Sources */,
 				B20ED60A293F055B002B2A0B /* TuningTrouble.swift in Sources */,
 				B27642342948460900158E56 /* DistressSignal.swift in Sources */,
@@ -541,6 +560,7 @@
 				B215B65C2942FB3600BCB9C8 /* day_09.swift in Sources */,
 				B2338DDF2946226500DA086B /* day_10.swift in Sources */,
 				B29AE52029390EF5001C7F39 /* aoc2022Tests.swift in Sources */,
+				B276424429499C6B00158E56 /* day_14.swift in Sources */,
 				B20ED602293DB242002B2A0B /* day_05.swift in Sources */,
 				B29AE54F2939C3D2001C7F39 /* day_02.swift in Sources */,
 				B20ED5F9293B2519002B2A0B /* day_03.swift in Sources */,
