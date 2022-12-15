@@ -57,6 +57,9 @@
 		B2A04F922941BF7B001E3D22 /* day_08.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2A04F912941BF7B001E3D22 /* day_08.txt */; };
 		B2B95B9E29405BEB00FB0AE1 /* NoSpaceLeftOnDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B95B9D29405BEB00FB0AE1 /* NoSpaceLeftOnDevice.swift */; };
 		B2B95BA029405C0F00FB0AE1 /* day_07.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B95B9F29405C0F00FB0AE1 /* day_07.swift */; };
+		B2C2CB0B294AEBC500F49BE6 /* BeaconExclusionZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2CB0A294AEBC500F49BE6 /* BeaconExclusionZone.swift */; };
+		B2C2CB0D294AEBE200F49BE6 /* day_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2CB0C294AEBE200F49BE6 /* day_15.swift */; };
+		B2C2CB11294AEC4400F49BE6 /* day_15.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2C2CB10294AEC4400F49BE6 /* day_15.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +133,9 @@
 		B2A04F912941BF7B001E3D22 /* day_08.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_08.txt; sourceTree = "<group>"; };
 		B2B95B9D29405BEB00FB0AE1 /* NoSpaceLeftOnDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSpaceLeftOnDevice.swift; sourceTree = "<group>"; };
 		B2B95B9F29405C0F00FB0AE1 /* day_07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_07.swift; sourceTree = "<group>"; };
+		B2C2CB0A294AEBC500F49BE6 /* BeaconExclusionZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconExclusionZone.swift; sourceTree = "<group>"; };
+		B2C2CB0C294AEBE200F49BE6 /* day_15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_15.swift; sourceTree = "<group>"; };
+		B2C2CB10294AEC4400F49BE6 /* day_15.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day_15.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +302,7 @@
 				B2338DED2946FA6400DA086B /* day_12.swift */,
 				B27642372948463000158E56 /* day_13.swift */,
 				B276424329499C6B00158E56 /* day_14.swift */,
+				B2C2CB0C294AEBE200F49BE6 /* day_15.swift */,
 			);
 			path = aoc2022Tests;
 			sourceTree = "<group>";
@@ -312,6 +319,7 @@
 		B29AE53829390F06001C7F39 /* days */ = {
 			isa = PBXGroup;
 			children = (
+				B2C2CB09294AEBB400F49BE6 /* 15 */,
 				B276424029499C0600158E56 /* 14 */,
 				B2764232294845F700158E56 /* 13 */,
 				B2338DEA2946FA1A00DA086B /* 12 */,
@@ -356,6 +364,7 @@
 				B2338DEF2946FAB500DA086B /* day_12.txt */,
 				B27642352948461700158E56 /* day_13.txt */,
 				B276424529499CAF00158E56 /* day_14.txt */,
+				B2C2CB10294AEC4400F49BE6 /* day_15.txt */,
 			);
 			path = Input;
 			sourceTree = "<group>";
@@ -382,6 +391,14 @@
 				B2B95B9D29405BEB00FB0AE1 /* NoSpaceLeftOnDevice.swift */,
 			);
 			path = 07;
+			sourceTree = "<group>";
+		};
+		B2C2CB09294AEBB400F49BE6 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				B2C2CB0A294AEBC500F49BE6 /* BeaconExclusionZone.swift */,
+			);
+			path = 15;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,6 +517,7 @@
 				B2338DF02946FAB500DA086B /* day_12.txt in Resources */,
 				B29AE54A293912C2001C7F39 /* day_01.txt in Resources */,
 				B2338DE3294631F600DA086B /* day_11.txt in Resources */,
+				B2C2CB11294AEC4400F49BE6 /* day_15.txt in Resources */,
 				B20ED60C293F0587002B2A0B /* day_06.txt in Resources */,
 				B20ED600293C638F002B2A0B /* day_04.txt in Resources */,
 				B20ED5F7293B2504002B2A0B /* day_03.txt in Resources */,
@@ -535,6 +553,7 @@
 				B27642342948460900158E56 /* DistressSignal.swift in Sources */,
 				B2338DEC2946FA2400DA086B /* HillClimbingAlgorithm.swift in Sources */,
 				B29AE51129390EF4001C7F39 /* ContentView.swift in Sources */,
+				B2C2CB0B294AEBC500F49BE6 /* BeaconExclusionZone.swift in Sources */,
 				B20ED5F5293B24BC002B2A0B /* RucksackReorganization.swift in Sources */,
 				B29AE50F29390EF4001C7F39 /* aoc2022App.swift in Sources */,
 				B2338DE62946321700DA086B /* MonkeyInTheMiddle.swift in Sources */,
@@ -558,6 +577,7 @@
 				B2338DE92946324C00DA086B /* day_11.swift in Sources */,
 				B2B95BA029405C0F00FB0AE1 /* day_07.swift in Sources */,
 				B215B65C2942FB3600BCB9C8 /* day_09.swift in Sources */,
+				B2C2CB0D294AEBE200F49BE6 /* day_15.swift in Sources */,
 				B2338DDF2946226500DA086B /* day_10.swift in Sources */,
 				B29AE52029390EF5001C7F39 /* aoc2022Tests.swift in Sources */,
 				B276424429499C6B00158E56 /* day_14.swift in Sources */,

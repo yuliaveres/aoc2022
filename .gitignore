@@ -1,1 +1,6 @@
-aoc2022.xcodeproj/project.xcworkspace/xcuserdata/yulia.xcuserdatad/UserInterfaceState.xcuserstate
+## User settings
+xcuserdata/
+
+## Xcode 8 and earlier
+*.xcscmblueprint
+*.xccheckout
